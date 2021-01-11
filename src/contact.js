@@ -51,7 +51,7 @@ const renderContact = function () {
 
             // Email Address
             const emailAddress = document.createElement("p");
-            const emailAddressText = document.createTextNode("bookings@lapetit.com");
+            const emailAddressText = document.createTextNode("book@lapetit.com");
             emailAddress.appendChild(emailAddressText);
             const emailAddressClass = document.createAttribute("class");
             emailAddressClass.value = "email-address";

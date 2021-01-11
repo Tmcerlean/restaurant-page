@@ -6,6 +6,15 @@ import { renderContact } from "./contact";
 import { renderTab } from "./tab";
 
 
+// Imported Module Functions
+render();
+renderTab();
+startButtonAnimation;
+renderMenu;
+renderAbout;
+renderContact;
+
+
 // Elements
 const tab = document.querySelector(".tab-container");
 const startButton = document.querySelector(".start-button");
@@ -15,15 +24,6 @@ const startButton = document.querySelector(".start-button");
 const removeTabContent = function () {
     tab.textContent = '';
 }
-
-
-// Imported Module Functions
-render();
-renderTab();
-startButtonAnimation;
-renderMenu;
-renderAbout;
-renderContact;
 
 
 // Menu Event listener
